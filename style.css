@@ -115,6 +115,15 @@ body{
   .movie-grid {
     grid-template-columns: 1fr 1fr 1fr;
   }
+   .container-2{
+  border: solid white;
+  height: 180px;
+     margin-top: 5px;
+   }
+   .image {
+     height: 90px;
+     width: 100%;
+   }
  }
 
  @media (min-width:751px) and (max-width: 999px) {
