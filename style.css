@@ -111,7 +111,7 @@ body{
  @media (max-width: 750px) {
   .movie-grid {
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 30px;
+    column-gap: 40px;
   }
 
   .container-2{
