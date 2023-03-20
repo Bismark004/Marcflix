@@ -107,7 +107,7 @@ body{
   grid-template-columns: 1fr 1fr 1fr 1fr ;
   align-items: center;
   column-gap: 0.5em;
-  row-gap: 3em;
+  row-gap: 5em;
   
  } 
  @media (max-width: 750px) {
