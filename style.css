@@ -79,10 +79,9 @@ body{
 .container-2{
   border: solid white;
   height: 390px;
-  margin-top: 20px;
   background-color: white;
   color: black;
-  font-size: 0.73em;
+  font-size: 0.75em;
 
 
 }
@@ -107,8 +106,8 @@ body{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr ;
   align-items: center;
-  column-gap: 20px;
-  row-gap: 40px;
+  column-gap: 0.5em;
+  row-gap: 2.5em;
   
  } 
  @media (max-width: 750px) {
