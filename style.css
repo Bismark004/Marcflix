@@ -105,35 +105,17 @@ body{
   .container-2{
     border: solid white;
     height: 390px;
-    margin-top: 20px;
     background-color: white;
     color: black;
   }
  @media (max-width: 750px) {
   .movie-grid {
     grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
   }
 
   .container-2{
-   height: 300px;
-  }
-  .image{
-    height: 180px;
-    width: 100px;
-  }
-   .container-2{
-  border: solid white;
-  height: 180px;
-     margin-top: 5px;
-   }
-   .image {
-     height: 90px;
-     width: 100%;
-   }
-   .description {
-    line-height: 80px;
-     font-size: 12px;
-   }
+   heig
 
  }
 
