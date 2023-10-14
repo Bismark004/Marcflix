@@ -14,9 +14,6 @@
         <a href="#news">News</a>
         <a href="#contact">Contact</a>
         <a href="#about">About</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
       </div>
 
       <div class="logo-container">
@@ -26,37 +23,12 @@
       </div>
 
       <div class="header-grid">
-        <input class="search" type="text" placeholder="search" />
-        <button class="search-button">SEARCH</button>
+        <input class="search" type="text" placeholder="search" id="search"/>
+        <button class="search-button" onclick="fetchMovies()">SEARCH</button>
       </div>
     </div>
 
-    <div class="container">
-      <div class="item">Action & Adventure</div>
-      <div class="item">Romance</div>
-      <div class="item">Fiction</div>
-      <div class="item"><abbr>Sci-Fi</abbr> & Fantasy</div>
-      <div class="item">Anime</div>
-      <div class="item">Bollywood</div>
-      <div class="item">Hollywood</div>
-      <div class="item">series</div>
-      <div class="item">Documentaries</div>
-      <div class="item">Faith & Spirituality</div>
-      <div class="item">Musicals</div>
-      <div class="item">Independent Movies</div>
-      <div class="item">Music</div>
-      <div class="item">Children & family Movies</div>
-      <div class="item">Comedies</div>
-      <div class="item">TV Shows</div>
-      <div class="item">Gay & Lesbian Movies</div>
-      <div class="item">classic Movies</div>
-      <div class="item">Cult Movies</div>
-      <div class="item">Sports Movies</div>
-      <div class="item">Horror Movies</div>
-      <div class="item">Thrillers</div>
-      <div class="item">Dramas</div>
-      <div class="item">Crime</div>
-    </div>
+  
     <div class="movie-grid">
       <div class="container-2">
         <img
@@ -340,5 +312,6 @@
         </div>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
