@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.sidebar {
+    width: 200px;
+    height: 100vh;
+    background-color: #fff;
+    color: #000;
+    transition: width 0.3s ease;
+    border: 1px solid red;
+}
+
+.sidebar.collapsed {
+    width: 50px;
+}
+
+.toggle-button {
+    cursor: pointer;
+}
+
+.sidebar .logo-text {
+    display: flex;
+}
+
+.
